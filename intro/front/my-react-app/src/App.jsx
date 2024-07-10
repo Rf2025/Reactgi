@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Contact List</h1>
+      <h1>Avengers</h1>
       {people.map((person, index) => (
         <div key={index} style={{ marginBottom: '20px' }}>
           <h2>{person.name}</h2>
